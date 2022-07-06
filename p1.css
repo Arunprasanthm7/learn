@@ -1,0 +1,37 @@
+.name {
+  color: black;
+  font-size:xx-large;
+  margin-bottom: 2%;
+}
+
+.parentContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.childContainer {
+  margin-top: 7%;
+  margin-right: 10%;
+  display: flex;
+  flex-direction: column;
+  font-family: var(--fonts-head);
+  font-weight: 600 !important;
+  color: rgb(103, 103, 103);
+}
+.role {
+  margin-bottom: 4%;
+}
+.line{
+    width: 100px;
+    height:1px;
+    background-color: rgb(134, 132, 123);
+    margin-bottom:4%;
+}
+.exp {
+  margin-bottom: 2%;
+}
+.currentRole {
+}
+.link {
+    
+}

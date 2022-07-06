@@ -1,0 +1,18 @@
+p {
+  color: black;
+  background: rgb(241, 202, 130);
+  font-size: 24px;
+  background-color: rgb(237, 172, 172);
+  font-style: bold;
+  text-align: center
+}
+
+h1 {
+  font: size:500%;
+  font-family: Arial, Helvetica;
+  text-align: center;
+}
+.options{
+  display: flex;
+  gap: 20px;
+}
