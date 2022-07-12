@@ -1,18 +1,172 @@
-p {
+
+
+.bg{
+  background-color:rgb(246, 246, 246);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.openingPage{
+  background-color:white;
+  display:flex;
+  width: 720px;
+  height:640px;
+}
+.symbol{
+  width:102px;
+  height:29px;
+  padding:10px;
+  margin-left:10px;
+
+}
+.menuOptionTop{
+  display: flex;
+    flex-direction: column;
+    width: 198px;
+    align-items: center;
+    
+}
+ 
+
+.plus{
+  width:16px;
+  height: auto;
+  
+}
+.option1
+{
+ 
+  display: flex;
+  color:black;
+  font-size:16px;
+  font-weight:400;
+  background-color: rgb(210, 250, 12);
+  width:140px;
+  height: 20px;
+  border-radius:6px;
+  padding-top: 5px;
+  padding-left:5px;
+  padding-bottom: 5px;
+  padding-right: 2px; 
+}
+.option2{
+  display: flex;
+  color:black;
+  font-size:16px;
+  font-weight:400;
+  background-color:rgb(241, 241, 241);
+  width:140px;
+  height: 20px;
+  border-radius:6px;
+  padding-top: 2px;
+  padding-left:5px;
+  padding-bottom: 5px;
+  padding-right: 2px;
+  margin-top:16px;
+  margin-bottom:1px;
+  
+
+}
+.option3{
+  display: flex;
+  color:black;
+  font-size:16px;
+  background-color:white;
+  font-weight:400;
+  width:140px;
+  height: 20px;
+  border-radius:6px;
+  padding-top: 2px;
+  padding-left:5px;
+  padding-bottom: 5px;
+  padding-right: 2px;
+  margin-bottom:1px;
+  
+}
+  
+
+.loginAccount{
+    display: flex;
+  align-items: center;
+  justify-content: center; 
+
+} 
+.username{
+  font-size:10px;
+  font-family: sans-serif;
+}
+.mailId{ 
+  font-size:10px;
+  color:grey;
+
+}
+.photo{
+  width: 20px;
+  height:20px;
+}
+.menuAction{
+  display:flex;
+  flex-direction: column;
+}
+.sideMenu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.borderColor{
+  
+  margin-top:20px;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.05), 0px 0px 1px rgba(0, 0, 0, 0.15);
+  border-radius: 12px;
+  
+}
+.amounts{
+ display: flex;
+ align-items:center;
+ justify-content: center;
+ width:500px;
+ height:80px;
+ margin-top: 4px;
+ margin-bottom:2px;
+ border-radius:10px;
+ background-color:white;
+ 
+ 
+}
+.numbers{
+  font-size:22px;
+}
+ 
+.category{
+  font-size:10px;
+  color: grey;
+}
+.summary{
+ font-family:sans-serif;
+  margin-top:52px; 
   color: black;
-  background: rgb(241, 202, 130);
-  font-size: 24px;
-  background-color: rgb(237, 172, 172);
-  font-style: bold;
-  text-align: center
+}
+.box1{
+  padding-left:16px;
+  border-left:green solid 2px;
+  padding-right: 16px;
+
+}
+.box2{
+  border-left:red solid 2px;
+  padding-left:16px;
+  padding-right: 16px;
+  
 }
 
-h1 {
-  font: size:500%;
-  font-family: Arial, Helvetica;
-  text-align: center;
+.box3{
+  border-left:blue solid 2px;
+  padding-left:16px;
+  padding-right: 16px;
+
 }
-.options{
-  display: flex;
-  gap: 20px;
+.plus{
+  margin-right:5px;
 }
