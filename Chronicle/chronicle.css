@@ -1,0 +1,202 @@
+.fullBody{
+    background-color: #eeeef1;
+}
+
+.topOne{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color:white;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    padding-top:8px;
+    padding-bottom:20px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+.photo{
+    margin-right:10px;
+}
+  .topTwo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .firstBox{
+    width: 462px;
+    height:116px;
+  }
+.welcome1{
+   font-family: sans-serif;
+   font-weight:600;
+   font-size:24px; 
+   line-height: 2; 
+}
+.welcomeNote1{
+    font-family: sans-serif;
+    color:#888891;
+    line-height: 1.5;
+}
+.feedback{
+    color: black;
+    
+    
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 250;
+    height: 125;
+    background: linear-gradient(91.66deg, #24242E 40.36%, #3D3D46 85.65%);
+    border-radius: 10px;
+    justify-content: space-evenly;
+}
+.cardTop{
+    color:rgb(131, 131, 131);
+    font-size:8px;
+    font-weight: 700;
+    margin-bottom: 40;
+}
+.cardBottom{
+    Color: white;
+    width: 84;
+    font-size: 12;
+    font-family: sans-serif;
+    line-height: 1.30;
+    margin-bottom: 40;
+}
+
+.outerCircle{
+    background-color: grey;
+    height: 33px;
+    width: 40;
+    border-radius: 50%;
+    margin-top: 50px;
+}
+.innerCircle
+{
+    background-color: white;
+    height: 23px;
+    width: 28px;
+    border-radius: 50%;
+    margin: 5.5px;
+}
+.playButton{
+    
+        margin-left: 10px;
+        margin-top: 5px;
+}
+.openingCard
+{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 20;
+    margin-top: 45px;
+}
+.cardContnent{
+    display: flex;
+    flex-direction: column;
+}
+.parentContainer{
+
+    margin-top: 50px;
+    display: flex;
+    justify-content:space-around;
+    
+}
+.childContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    margin-left: 16px;
+}
+.deck{
+    color: grey;
+    font-size:18px;
+    font-family: sans-serif;
+    font-weight:400;
+}
+.line{
+    width:1007px;
+    border-bottom:solid 1px grey;
+}
+.childcontainer2
+{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    padding-bottom: 100px;
+    margin-left:15px
+}
+.plus{
+    height: 40px;
+    width: 40px;
+    border-style: dotted;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.paraLine{
+    font-family: sans-serif;
+    font-weight:600;
+    font-size:18px;
+}
+.topLine{
+    font-family: sans-serif;
+    font-weight:550;
+    font-size:18px;
+    padding-bottom:110px;
+   
+}
+.bottomLine{
+     font-family: sans-serif;
+    font-weight:400px;
+    font-size:12px;
+    color: grey;
+
+}
+.threeBox{
+    /* height: 225px;
+    width: 225px;
+    background-color: rgb(170, 168, 168);
+    margin-left:10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px; */
+    height: 340px;
+    width: 340px;
+    background-color: rgb(216 216 216);
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    padding-left: 20px;
+}
+.threeBox2{
+    height: 340px;
+    width: 340px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    border-radius: 20px;
+    padding-left: 20px;
+}
+.feedback{
+    padding-left: 3px;
+}
